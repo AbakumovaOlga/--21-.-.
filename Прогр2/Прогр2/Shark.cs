@@ -48,7 +48,7 @@ namespace Прогр2
             }
         }
         public override int Weight
-
+      
         {
             get
             {
@@ -69,20 +69,20 @@ namespace Прогр2
         }
 
 
-        public Shark(double speed, int age, int weight, Color color)
+        public Shark(double speed, int Age, int weight,Color color)
         {
             this.Speed = speed;
-            this.Age = age;
+            this.Age = Age;
             this.ColorBody = color;
             this.Weight = weight;
             Random rand = new Random();
-            startPosX = rand.Next(10, 200);
-            startPosY = rand.Next(10, 200);
+            /*startPosX = rand.Next(10, 200);
+            startPosY = rand.Next(10, 200);*/
         }
 
-        public override void moveAnimal(Graphics g)
+ public override void moveAnimal(Graphics g)
         {
-            startPosX -= ((float)Speed);
+            startPosX += ((float)Speed) ;
             drawAnimal(g);
         }
 
@@ -93,6 +93,7 @@ namespace Прогр2
 
         protected virtual void draw1Shark(Graphics g)
         {
+            //Отрисовка1
             Pen pen = new Pen(ColorBody);
 
             //Body
@@ -111,5 +112,7 @@ namespace Прогр2
             g.DrawLine(pen, startPosX + Age * 11, startPosY + Weight, startPosX + Age * 10, startPosY);
             g.DrawLine(pen, startPosX + Age * 11, startPosY - Weight, startPosX + Age * 10, startPosY);
         }
+
+       
     }
 }

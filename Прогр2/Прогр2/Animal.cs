@@ -12,6 +12,7 @@ namespace Прогр2
         void moveAnimal(Graphics g);
         void drawAnimal(Graphics g);
         void setPos(int x, int y);
+   //     void eat();
         void grow(int a);
     }
 }
