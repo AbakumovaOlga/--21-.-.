@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Прогр2
 {
-    public abstract class Fish : Animal
+    public abstract class  Fish : Animal
     {
         protected float startPosX;
         protected float startPosY;
-
+        
 
         public abstract void drawAnimal(Graphics g);
         public abstract void moveAnimal(Graphics g);
@@ -21,20 +21,29 @@ namespace Прогр2
             startPosX = x;
             startPosY = y;
         }
+        
 
+     /*   public void eat()
+        {
+            throw new NotImplementedException();
+        }
+*/
         protected int age;
         public virtual int Age { protected set; get; }
         public void grow(int a)
         {
-            if (age + a < Age)
+            if (age+a < Age)
             {
                 age++;
             }
         }
 
-        public virtual double Speed { protected set; get; }
+      public virtual double Speed { protected set; get; }
         public virtual int Weight { protected set; get; }
         public Color ColorBody { protected set; get; }
-        
+
+
+
+
     }
 }

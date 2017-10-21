@@ -17,7 +17,6 @@ namespace Прогр2
         double speed;
         int weight;
         int age;
-        Boolean bands = false;
 
         private Animal inter;
 
@@ -91,15 +90,12 @@ namespace Прогр2
 
         private void FTigerSark_Click(object sender, EventArgs e)
         {
-            if (FBands.Checked)
-            {
-                bands = true;
-                inter = new TigerShark(speed, age, weight, color, bands, dopcolor);
-                Bitmap bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
-                Graphics gr = Graphics.FromImage(bmp);
-                inter.drawAnimal(gr);
-                pictureBox1.Image = bmp;
-            }
+            inter = new TigerShark(150, 15, 400, Color.Black, true, Color.Yellow);
+            Bitmap bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+            Graphics gr = Graphics.FromImage(bmp);
+            inter.drawAnimal(gr);
+            pictureBox1.Image = bmp;
+
         }
 
         private bool checkFields()
@@ -127,8 +123,8 @@ namespace Прогр2
                 Graphics gr = Graphics.FromImage(bmp);
                 inter.moveAnimal(gr);
                 pictureBox1.Image = bmp;
+                //////////
             }
-
         }
     }
 }
