@@ -19,7 +19,7 @@ namespace Прогр2
         int age;
         Boolean bands = false;
 
-        private Animal inter;
+        private IAnimal inter;
 
         public Form1()
         {

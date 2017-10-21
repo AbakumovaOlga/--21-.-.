@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Прогр2
 {
-    public abstract class Fish : Animal
+    public abstract class Fish : IAnimal
     {
         protected float startPosX;
         protected float startPosY;

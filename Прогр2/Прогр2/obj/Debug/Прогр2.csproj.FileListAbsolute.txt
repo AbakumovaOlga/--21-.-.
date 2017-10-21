@@ -19,3 +19,12 @@ D:\ВУЗ\VSWorkSpace\Прогр2\Прогр2\obj\Debug\Прогр2.csprojResolv
 D:\ВУЗ\VSWorkSpace\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
 D:\ВУЗ\VSWorkSpace\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
 D:\ВУЗ\VSWorkSpace\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache
+E:\Выложить\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
+E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.exe
+E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.pdb
+E:\Выложить\Прогр2\Прогр2\bin\Debug\Прогр2.exe
+E:\Выложить\Прогр2\Прогр2\bin\Debug\Прогр2.pdb
+E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.csprojResolveAssemblyReference.cache
+E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
+E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
+E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache
