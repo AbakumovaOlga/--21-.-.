@@ -1,0 +1,21 @@
+c:\users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\bin\Debug\Прогр1(1).exe.config
+c:\users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).csprojResolveAssemblyReference.cache
+c:\users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1_1_.Properties.Resources.resources
+c:\users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).csproj.GenerateResource.Cache
+C:\Users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\bin\Debug\Прогр1(1).exe
+C:\Users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\bin\Debug\Прогр1(1).pdb
+C:\Users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1_1_.FKitchen.resources
+C:\Users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).exe
+C:\Users\админ\documents\visual studio 2015\Projects\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).pdb
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\bin\Debug\Прогр1(1).exe.config
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).exe
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).pdb
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\bin\Debug\Прогр1(1).exe
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\bin\Debug\Прогр1(1).pdb
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).csprojResolveAssemblyReference.cache
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1_1_.FKitchen.resources
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1_1_.Properties.Resources.resources
+C:\ВУЗ\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).csproj.GenerateResource.Cache
+D:\ВУЗ\VSWorkSpace\Прогр1(1)\Прогр1(1)\bin\Debug\Прогр1(1).exe.config
+D:\ВУЗ\VSWorkSpace\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).exe
+D:\ВУЗ\VSWorkSpace\Прогр1(1)\Прогр1(1)\obj\Debug\Прогр1(1).pdb
