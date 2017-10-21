@@ -26,7 +26,7 @@ public class Form {
 	int age;
 	Boolean bands = false;
 
-	private Animal inter;
+	private IAnimal inter;
 
 	/**
 	 * Launch the application.

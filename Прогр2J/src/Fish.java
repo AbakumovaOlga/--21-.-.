@@ -1,7 +1,7 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
-public abstract class Fish implements Animal {
+public abstract class Fish implements IAnimal {
 	protected int startPosX;
 	protected int startPosY;
 
