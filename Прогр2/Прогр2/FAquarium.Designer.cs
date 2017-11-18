@@ -34,11 +34,10 @@
             this.FGet = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.FTicket = new System.Windows.Forms.MaskedTextBox();
-            this.FSetShark = new System.Windows.Forms.Button();
-            this.FSetTShark = new System.Windows.Forms.Button();
             this.listBoxLevels = new System.Windows.Forms.ListBox();
             this.buttonUp = new System.Windows.Forms.Button();
             this.buttonDown = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.FAqu)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FShark)).BeginInit();
@@ -103,26 +102,6 @@
             this.FTicket.Size = new System.Drawing.Size(163, 26);
             this.FTicket.TabIndex = 0;
             // 
-            // FSetShark
-            // 
-            this.FSetShark.Location = new System.Drawing.Point(763, 12);
-            this.FSetShark.Name = "FSetShark";
-            this.FSetShark.Size = new System.Drawing.Size(104, 33);
-            this.FSetShark.TabIndex = 3;
-            this.FSetShark.Text = "Set Shark";
-            this.FSetShark.UseVisualStyleBackColor = true;
-            this.FSetShark.Click += new System.EventHandler(this.FSetShark_Click);
-            // 
-            // FSetTShark
-            // 
-            this.FSetTShark.Location = new System.Drawing.Point(916, 12);
-            this.FSetTShark.Name = "FSetTShark";
-            this.FSetTShark.Size = new System.Drawing.Size(140, 33);
-            this.FSetTShark.TabIndex = 4;
-            this.FSetTShark.Text = "Set Tiger Shark";
-            this.FSetTShark.UseVisualStyleBackColor = true;
-            this.FSetTShark.Click += new System.EventHandler(this.FSetTShark_Click);
-            // 
             // listBoxLevels
             // 
             this.listBoxLevels.FormattingEnabled = true;
@@ -153,16 +132,25 @@
             this.buttonDown.UseVisualStyleBackColor = true;
             this.buttonDown.Click += new System.EventHandler(this.buttonDown_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(830, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(153, 31);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Выбрать акулу";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FAquarium
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 670);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonDown);
             this.Controls.Add(this.buttonUp);
             this.Controls.Add(this.listBoxLevels);
-            this.Controls.Add(this.FSetTShark);
-            this.Controls.Add(this.FSetShark);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.FAqu);
             this.Name = "FAquarium";
@@ -183,10 +171,9 @@
         private System.Windows.Forms.PictureBox FShark;
         private System.Windows.Forms.Button FGet;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button FSetShark;
-        private System.Windows.Forms.Button FSetTShark;
         private System.Windows.Forms.ListBox listBoxLevels;
         private System.Windows.Forms.Button buttonUp;
         private System.Windows.Forms.Button buttonDown;
+        private System.Windows.Forms.Button button1;
     }
 }

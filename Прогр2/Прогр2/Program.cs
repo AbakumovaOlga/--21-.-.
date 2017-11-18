@@ -6,6 +6,10 @@ using System.Windows.Forms;
 
 namespace Прогр2
 {
+    //5
+    public delegate void myDel(Прогр2.IAnimal shark);
+    //
+
     static class Program
     {
         /// <summary>
