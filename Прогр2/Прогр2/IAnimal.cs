@@ -16,5 +16,9 @@ namespace Прогр2
         // 5
         void setMainColor(Color color);
         //
+
+        //6
+        string getInfo();
+        //
     }
 }

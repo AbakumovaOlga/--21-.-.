@@ -152,8 +152,38 @@ namespace Прогр2
                 }
             }
         }
-        //
 
+        //6
+        private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                if (aquarium.SaveData(saveFileDialog1.FileName))
+                {
+                    MessageBox.Show("Сохранение прошло успешно", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("НЕ сохранилось", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+        private void загрузитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                if (aquarium.LoadData(openFileDialog1.FileName))
+                {
+                    MessageBox.Show("Загрузили", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Не загрузили", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                Draw();
+            }
+        }
+        //
     }
 }
 

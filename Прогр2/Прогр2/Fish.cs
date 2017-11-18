@@ -41,5 +41,9 @@ namespace Прогр2
             ColorBody = color;
         }
         //
+
+        //6
+        public abstract string getInfo();
+        //
     }
 }
