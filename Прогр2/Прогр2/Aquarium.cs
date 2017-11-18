@@ -9,22 +9,22 @@ namespace Прогр2
 {
     class Aquarium
     {
-        ClassArray<Animal> aquarium;
-        int countCell = 20;
-        int cellW = 210;
+        ClassArray<IAnimal> aquarium;
+        int countCell = 10;
+        int cellW = 310;
         int cellH = 80;
 
         public Aquarium()
         {
-            aquarium = new ClassArray<Animal>(countCell, null);
+            aquarium = new ClassArray<IAnimal>(countCell, null);
         }
 
-        public int PutSharkInAquarium(Animal shark)
+        public int PutSharkInAquarium(IAnimal shark)
         {
             return aquarium + shark;
         }
 
-        public Animal GetSharkinAquarium(int ticket)
+        public IAnimal GetSharkinAquarium(int ticket)
         {
             return aquarium - ticket;
         }
@@ -37,28 +37,23 @@ namespace Прогр2
                 var shark = aquarium.getObject(i);
                 if (shark != null)
                 {
-                    shark.setPos(5 + i / 5 * cellW, i % 5 * cellH + 40);
+                    shark.setPos(5 + i / 5 * cellW + 100, i % 5 * cellH + 40);
                     shark.drawAnimal(g);
                 }
-
             }
         }
 
         private void DrawCells(Graphics g)
         {
             Pen pen = new Pen(Color.Black, 3);
-         //   g.DrawRectangle(pen, 0, 0, (countCell / 5) * cellH, 480);
 
             for (int i = 0; i < countCell / 5; i++)
             {
                 for (int j = 0; j < 6; ++j)
                 {
-                     g.DrawLine(pen, i * cellW, j * cellH, i * cellW + 110, j * cellH);
-                    g.DrawLine(pen, i * cellW, j * cellH, i * cellW , j * cellH+ 110);
-                    g.DrawLine(pen, i * cellW + 110, j * cellH, i * cellW + 110, j * cellH + 110);
-                    //g.DrawRectangle(pen, i * cellW, j * cellH, i * cellW + 110, j * cellH);
+                    g.DrawLine(pen, i * cellW, j * cellH, i * cellW + 310, j * cellH);
+                    g.DrawLine(pen, i * cellW, j * cellH, i * cellW, j * cellH + 210);
                 }
-               // g.DrawLine(pen, i * cellW, 0, i * cellW, 400);
             }
         }
     }

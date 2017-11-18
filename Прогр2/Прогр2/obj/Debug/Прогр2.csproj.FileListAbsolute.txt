@@ -17,16 +17,16 @@ C:\ВУЗ\Прогр2\Прогр2\obj\Debug\Прогр2.FAquarium.resources
 C:\ВУЗ\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
 C:\ВУЗ\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
 C:\ВУЗ\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache
-F:\Флешка\3 лаба\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
-F:\Флешка\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.exe
-F:\Флешка\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.pdb
-F:\Флешка\3 лаба\Прогр2\Прогр2\bin\Debug\Прогр2.exe
-F:\Флешка\3 лаба\Прогр2\Прогр2\bin\Debug\Прогр2.pdb
-F:\Флешка\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.csprojResolveAssemblyReference.cache
-F:\Флешка\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.FAquarium.resources
-F:\Флешка\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
-F:\Флешка\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
-F:\Флешка\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache
-D:\ВУЗ\VSWorkSpace\3 лаба\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
-D:\ВУЗ\VSWorkSpace\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.exe
-D:\ВУЗ\VSWorkSpace\3 лаба\Прогр2\Прогр2\obj\Debug\Прогр2.pdb
+D:\pr3\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
+D:\pr3\Прогр2\Прогр2\obj\Debug\Прогр2.exe
+D:\pr3\Прогр2\Прогр2\obj\Debug\Прогр2.pdb
+D:\pr3\Прогр2\Прогр2\bin\Debug\Прогр2.exe
+D:\pr3\Прогр2\Прогр2\bin\Debug\Прогр2.pdb
+D:\pr3\Прогр2\Прогр2\obj\Debug\Прогр2.csprojResolveAssemblyReference.cache
+D:\pr3\Прогр2\Прогр2\obj\Debug\Прогр2.FAquarium.resources
+D:\pr3\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
+D:\pr3\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
+D:\pr3\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache
+D:\Прогр3\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
+D:\Прогр3\Прогр2\Прогр2\obj\Debug\Прогр2.exe
+D:\Прогр3\Прогр2\Прогр2\obj\Debug\Прогр2.pdb

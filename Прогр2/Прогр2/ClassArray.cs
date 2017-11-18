@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Прогр2
 {
-    class ClassArray<T> where T: Animal
+    class ClassArray<T> where T : IAnimal
     {
         private T[] cells;
 
@@ -15,7 +15,7 @@ namespace Прогр2
         {
             defaultValue = defVal;
             cells = new T[size];
-            for(int i=0; i<cells.Length; i++)
+            for (int i = 0; i < cells.Length; i++)
             {
                 cells[i] = defaultValue;
             }
@@ -23,7 +23,7 @@ namespace Прогр2
 
         public static int operator +(ClassArray<T> c, T shark)
         {
-            for(int i=0; i<c.cells.Length; i++)
+            for (int i = 0; i < c.cells.Length; i++)
             {
                 if (c.ChekFreeCell(i))
                 {
@@ -33,7 +33,6 @@ namespace Прогр2
             }
             return -1;
         }
-
 
         public static T operator -(ClassArray<T> c, int index)
         {
@@ -71,6 +70,5 @@ namespace Прогр2
             }
             return defaultValue;
         }
-
     }
 }
