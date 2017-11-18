@@ -28,3 +28,12 @@ E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.csprojResolveA
 E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
 E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
 E:\Выложить\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache
+D:\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
+D:\Прогр2\Прогр2\obj\Debug\Прогр2.exe
+D:\Прогр2\Прогр2\obj\Debug\Прогр2.pdb
+D:\Прогр2\Прогр2\bin\Debug\Прогр2.exe
+D:\Прогр2\Прогр2\bin\Debug\Прогр2.pdb
+D:\Прогр2\Прогр2\obj\Debug\Прогр2.csprojResolveAssemblyReference.cache
+D:\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
+D:\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
+D:\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache

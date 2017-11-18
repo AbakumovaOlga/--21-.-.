@@ -12,7 +12,6 @@ namespace Прогр2
         protected float startPosX;
         protected float startPosY;
 
-
         public abstract void drawAnimal(Graphics g);
         public abstract void moveAnimal(Graphics g);
 
@@ -35,6 +34,5 @@ namespace Прогр2
         public virtual double Speed { protected set; get; }
         public virtual int Weight { protected set; get; }
         public Color ColorBody { protected set; get; }
-        
     }
 }

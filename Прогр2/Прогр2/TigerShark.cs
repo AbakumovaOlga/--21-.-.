@@ -22,14 +22,12 @@ namespace Прогр2
             base.draw1Shark(g);
             if (bands)
             {
+                //Drawing2
                 Pen pen = new Pen(dopColor);
 
                 g.DrawLine(pen, startPosX + Age * 3, startPosY - Weight, startPosX + Age * 4, startPosY);
                 g.DrawLine(pen, startPosX + Age * 6, startPosY - Weight / 2, startPosX + Age * 7, startPosY);
             }
-
         }
     }
-
-
 }

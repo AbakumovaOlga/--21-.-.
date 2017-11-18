@@ -68,7 +68,6 @@ namespace Прогр2
             }
         }
 
-
         public Shark(double speed, int age, int weight, Color color)
         {
             this.Speed = speed;
@@ -93,6 +92,7 @@ namespace Прогр2
 
         protected virtual void draw1Shark(Graphics g)
         {
+            //Drawing1
             Pen pen = new Pen(ColorBody);
 
             //Body
