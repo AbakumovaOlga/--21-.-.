@@ -36,6 +36,9 @@
             this.FTicket = new System.Windows.Forms.MaskedTextBox();
             this.FSetShark = new System.Windows.Forms.Button();
             this.FSetTShark = new System.Windows.Forms.Button();
+            this.listBoxLevels = new System.Windows.Forms.ListBox();
+            this.buttonUp = new System.Windows.Forms.Button();
+            this.buttonDown = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.FAqu)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FShark)).BeginInit();
@@ -57,7 +60,7 @@
             this.groupBox1.Controls.Add(this.FGet);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.FTicket);
-            this.groupBox1.Location = new System.Drawing.Point(763, 247);
+            this.groupBox1.Location = new System.Drawing.Point(751, 297);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(305, 373);
             this.groupBox1.TabIndex = 2;
@@ -102,9 +105,9 @@
             // 
             // FSetShark
             // 
-            this.FSetShark.Location = new System.Drawing.Point(803, 23);
+            this.FSetShark.Location = new System.Drawing.Point(763, 12);
             this.FSetShark.Name = "FSetShark";
-            this.FSetShark.Size = new System.Drawing.Size(160, 55);
+            this.FSetShark.Size = new System.Drawing.Size(104, 33);
             this.FSetShark.TabIndex = 3;
             this.FSetShark.Text = "Set Shark";
             this.FSetShark.UseVisualStyleBackColor = true;
@@ -112,19 +115,52 @@
             // 
             // FSetTShark
             // 
-            this.FSetTShark.Location = new System.Drawing.Point(816, 116);
+            this.FSetTShark.Location = new System.Drawing.Point(916, 12);
             this.FSetTShark.Name = "FSetTShark";
-            this.FSetTShark.Size = new System.Drawing.Size(146, 73);
+            this.FSetTShark.Size = new System.Drawing.Size(140, 33);
             this.FSetTShark.TabIndex = 4;
             this.FSetTShark.Text = "Set Tiger Shark";
             this.FSetTShark.UseVisualStyleBackColor = true;
             this.FSetTShark.Click += new System.EventHandler(this.FSetTShark_Click);
+            // 
+            // listBoxLevels
+            // 
+            this.listBoxLevels.FormattingEnabled = true;
+            this.listBoxLevels.ItemHeight = 20;
+            this.listBoxLevels.Location = new System.Drawing.Point(821, 67);
+            this.listBoxLevels.Name = "listBoxLevels";
+            this.listBoxLevels.Size = new System.Drawing.Size(163, 224);
+            this.listBoxLevels.TabIndex = 5;
+            this.listBoxLevels.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // buttonUp
+            // 
+            this.buttonUp.Location = new System.Drawing.Point(1001, 127);
+            this.buttonUp.Name = "buttonUp";
+            this.buttonUp.Size = new System.Drawing.Size(54, 81);
+            this.buttonUp.TabIndex = 6;
+            this.buttonUp.Text = "->";
+            this.buttonUp.UseVisualStyleBackColor = true;
+            this.buttonUp.Click += new System.EventHandler(this.buttonUp_Click);
+            // 
+            // buttonDown
+            // 
+            this.buttonDown.Location = new System.Drawing.Point(751, 127);
+            this.buttonDown.Name = "buttonDown";
+            this.buttonDown.Size = new System.Drawing.Size(54, 81);
+            this.buttonDown.TabIndex = 7;
+            this.buttonDown.Text = "<-";
+            this.buttonDown.UseVisualStyleBackColor = true;
+            this.buttonDown.Click += new System.EventHandler(this.buttonDown_Click);
             // 
             // FAquarium
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 670);
+            this.Controls.Add(this.buttonDown);
+            this.Controls.Add(this.buttonUp);
+            this.Controls.Add(this.listBoxLevels);
             this.Controls.Add(this.FSetTShark);
             this.Controls.Add(this.FSetShark);
             this.Controls.Add(this.groupBox1);
@@ -149,5 +185,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button FSetShark;
         private System.Windows.Forms.Button FSetTShark;
+        private System.Windows.Forms.ListBox listBoxLevels;
+        private System.Windows.Forms.Button buttonUp;
+        private System.Windows.Forms.Button buttonDown;
     }
 }

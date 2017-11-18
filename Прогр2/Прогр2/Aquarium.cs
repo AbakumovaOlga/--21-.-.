@@ -10,23 +10,66 @@ namespace Прогр2
     class Aquarium
     {
         ClassArray<IAnimal> aquarium;
+
+        //4
+        List<ClassArray<IAnimal>> aquariumStages;
+        int currentLevel;
+        //
+
         int countCell = 10;
         int cellW = 310;
         int cellH = 80;
 
-        public Aquarium()
+        //4
+        public int getCurrentLevel
         {
-            aquarium = new ClassArray<IAnimal>(countCell, null);
+            get
+            {
+                return currentLevel;
+            }
         }
+        //
+
+        //4
+        public Aquarium(int countStages)
+        {
+            aquariumStages = new List<ClassArray<IAnimal>>(countStages);
+            for (int i = 0; i < countStages; i++)
+            {
+                aquarium = new ClassArray<IAnimal>(countCell, null);
+                aquariumStages.Add(aquarium);
+            }
+        }
+
+        public void LevelUp()
+        {
+            if (currentLevel + 1 < aquariumStages.Count)
+            {
+                currentLevel++;
+            }
+        }
+
+        public void LevelDown()
+        {
+            if (currentLevel > 0)
+            {
+                currentLevel--;
+            }
+        }
+        //
 
         public int PutSharkInAquarium(IAnimal shark)
         {
-            return aquarium + shark;
+            //4
+            return aquariumStages[currentLevel] + shark;
+            //
         }
 
         public IAnimal GetSharkinAquarium(int ticket)
         {
-            return aquarium - ticket;
+            //4
+            return aquariumStages[currentLevel] - ticket;
+            //
         }
 
         public void Draw(Graphics g, int w, int h)
@@ -34,7 +77,10 @@ namespace Прогр2
             DrawCells(g);
             for (int i = 0; i < countCell; i++)
             {
-                var shark = aquarium.getObject(i);
+                //4
+                var shark = aquariumStages[currentLevel][i];
+                //
+
                 if (shark != null)
                 {
                     shark.setPos(5 + i / 5 * cellW + 100, i % 5 * cellH + 40);
@@ -46,6 +92,9 @@ namespace Прогр2
         private void DrawCells(Graphics g)
         {
             Pen pen = new Pen(Color.Black, 3);
+            //4
+            g.DrawString(("L" + currentLevel + 1), new Font("Arial", 30), new SolidBrush(Color.Blue), (countCell / 5) * cellW - 70, 420);
+            //
 
             for (int i = 0; i < countCell / 5; i++)
             {
@@ -53,6 +102,12 @@ namespace Прогр2
                 {
                     g.DrawLine(pen, i * cellW, j * cellH, i * cellW + 310, j * cellH);
                     g.DrawLine(pen, i * cellW, j * cellH, i * cellW, j * cellH + 210);
+                    //4
+                    if (j < 5)
+                    {
+                        g.DrawString((i * 5 + j).ToString(), new Font("Arial", 30), new SolidBrush(Color.Blue), i * cellW + 30, j * cellH + 20);
+                    }
+                    //
                 }
             }
         }
