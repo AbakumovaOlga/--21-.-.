@@ -13,5 +13,8 @@ namespace Прогр2
         void drawAnimal(Graphics g);
         void setPos(int x, int y);
         void grow(int a);
+        // 5
+        void setMainColor(Color color);
+        //
     }
 }

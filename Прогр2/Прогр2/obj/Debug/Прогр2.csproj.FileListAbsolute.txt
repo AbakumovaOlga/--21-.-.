@@ -27,3 +27,14 @@ D:\Прогр4\Прогр2\Прогр2\obj\Debug\Прогр2.FAquarium.resources
 D:\Прогр4\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
 D:\Прогр4\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
 D:\Прогр4\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache
+D:\Прогр5 новая\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
+D:\Прогр5 новая\Прогр2\Прогр2\obj\Debug\Прогр2.exe
+D:\Прогр5 новая\Прогр2\Прогр2\obj\Debug\Прогр2.pdb
+D:\Прогр5 новая\Прогр2\Прогр2\bin\Debug\Прогр2.exe
+D:\Прогр5 новая\Прогр2\Прогр2\bin\Debug\Прогр2.pdb
+D:\Прогр5 новая\Прогр2\Прогр2\obj\Debug\Прогр2.csprojResolveAssemblyReference.cache
+D:\Прогр5 новая\Прогр2\Прогр2\obj\Debug\Прогр2.FAquarium.resources
+D:\Прогр5 новая\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
+D:\Прогр5 новая\Прогр2\Прогр2\obj\Debug\Прогр2.FSelectColor.resources
+D:\Прогр5 новая\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
+D:\Прогр5 новая\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache

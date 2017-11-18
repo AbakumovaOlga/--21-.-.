@@ -34,5 +34,12 @@ namespace Прогр2
         public virtual double Speed { protected set; get; }
         public virtual int Weight { protected set; get; }
         public Color ColorBody { protected set; get; }
+
+        //5
+        public virtual void setMainColor(Color color)
+        {
+            ColorBody = color;
+        }
+        //
     }
 }
