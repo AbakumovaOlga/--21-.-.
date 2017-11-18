@@ -45,9 +45,9 @@ public class Shark extends Fish {
 		}
 	}
 
-	public Shark(int speed, int Age, int weight, Color color) {
+	public Shark(int speed, int age, int weight, Color color) {
 		this.SetSpeed(speed);
-		this.SetAge(Age);
+		this.SetAge(age);
 		this.SetColorBody(color);
 		this.SetWeight(weight);
 		Random rand = new Random();

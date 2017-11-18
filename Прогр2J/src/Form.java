@@ -172,7 +172,6 @@ public class Form {
 			public void actionPerformed(ActionEvent e) {
 				if (inter != null) {
 					Graphics gr = panel.getGraphics();
-
 					gr.clearRect(0, 0, panel.getWidth(), panel.getHeight());
 					inter.moveAnimal(gr);
 				}
@@ -207,8 +206,6 @@ public class Form {
 		if (isDigit(FSpeed.getText())) {
 			speed = Integer.parseInt(FSpeed.getText());
 		}
-
 		return true;
 	}
-
 }
