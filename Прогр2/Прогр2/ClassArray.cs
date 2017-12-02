@@ -28,7 +28,9 @@ namespace Прогр2
             //4
             if (c.cells.Count == c.maxCount)
             {
-                return -1;
+                //7
+                throw new AquOverflowException();
+                //7
             }
             //
 
@@ -61,7 +63,9 @@ namespace Прогр2
             }
             //
 
-            return c.defaultValue;
+            //7
+            throw new AquIndexOutOfRangeException();
+            //
         }
 
         private bool ChekFreeCell(int index)
