@@ -78,10 +78,8 @@ public class FAquarium {
 			if (shark != null) {
 				aquarium.PutSharkInAquarium(shark);
 				panel.repaint();
-				JOptionPane.showMessageDialog(frame, "Акула добавлена");
+				JOptionPane.showMessageDialog(frame, "ГЂГЄГіГ«Г  Г¤Г®ГЎГ ГўГ«ГҐГ­Г ");
 				close=false;
-			//	AddShark(shark);
-				
 			}
 		}
 		//
@@ -230,10 +228,10 @@ public  void AddShark(IAnimal shark) {
 			System.out.println(place);
 			if (place > -1) {
 				Draw(panel);
-				JOptionPane.showMessageDialog(frame, "Ваше место: " + place);
+				JOptionPane.showMessageDialog(frame, "Г‚Г ГёГҐ Г¬ГҐГ±ГІГ®: " + place);
 			} else {
 				JOptionPane.showMessageDialog(frame,
-						"акулу не удалось посадить в клетку");
+						"Г ГЄГіГ«Гі Г­ГҐ ГіГ¤Г Г«Г®Г±Гј ГЇГ®Г±Г Г¤ГЁГІГј Гў ГЄГ«ГҐГІГЄГі");
 			}
 		}
 	}
