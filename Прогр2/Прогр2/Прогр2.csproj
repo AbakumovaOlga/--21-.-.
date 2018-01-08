@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AquariumAlreadyHaveException.cs" />
     <Compile Include="AquIndexOutOfRangeException.cs" />
     <Compile Include="AquOverflowException.cs" />
     <Compile Include="FSelectColor.cs">

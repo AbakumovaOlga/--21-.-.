@@ -52,3 +52,6 @@ d:\Прогр6\Прогр2\Прогр2\bin\Debug\Прогр2.pdb
 c:\ВУЗ\Прогр2\Прогр2\bin\Debug\NLog.dll
 c:\ВУЗ\Прогр2\Прогр2\bin\Debug\NLog.xml
 c:\ВУЗ\Прогр2\Прогр2\obj\Debug\Прогр2.FSelectColor.resources
+d:\Прогр8\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
+d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.exe
+d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.pdb

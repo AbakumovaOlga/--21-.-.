@@ -76,18 +76,19 @@ namespace Прогр2
         public void Draw(Graphics g, int w, int h)
         {
             DrawCells(g);
-            for (int i = 0; i < countCell; i++)
+            //8
+            int i = 0;
+            foreach(var shark in aquariumStages[currentLevel])
             {
-                //4
-                var shark = aquariumStages[currentLevel][i];
-                //
-
-                if (shark != null)
-                {
-                    shark.setPos(5 + i / 5 * cellW + 100, i % 5 * cellH + 40);
-                    shark.drawAnimal(g);
-                }
+                shark.setPos(5 + i / 5 * cellW + 100, i % 5 * cellH + 40);
+                shark.drawAnimal(g);
+                i++;
             }
+            
+        }
+        public void Sort()
+        {
+            aquariumStages.Sort();
         }
 
         private void DrawCells(Graphics g)

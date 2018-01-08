@@ -7,8 +7,75 @@ using System.Threading.Tasks;
 
 namespace Прогр2
 {
-    public class TigerShark : Shark
+    public class TigerShark : Shark, IComparable<TigerShark>, IEquatable<Shark>
     {
+        //8
+        public int CompareTo(TigerShark other)
+        {
+            var res = (this is Shark).CompareTo(other is Shark);
+            if (res != 0)
+            {
+                return res;
+            }
+            if (bands != other.bands)
+            {
+                return bands.CompareTo(other.bands);
+            }
+            if (ColorBody != other.ColorBody)
+            {
+                ColorBody.Name.CompareTo(other.ColorBody
+                    .Name);
+            }
+            if (dopColor != other.dopColor)
+            {
+                dopColor.Name.CompareTo(other.dopColor
+                    .Name);
+            }
+            return 0;
+        }
+
+        public bool Equals(TigerShark other)
+        {
+            var res = (this is Shark).Equals(other is Shark);
+            if (!res)
+            {
+                return res;
+            }
+            if (bands != other.bands)
+            {
+                return false;
+            }
+            if (dopColor != other.dopColor)
+            {
+                return false;
+            }
+            if (ColorBody != other.ColorBody)
+            {
+                return false;
+            }
+            return true;
+        }
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+            TigerShark sharkObj = obj as TigerShark;
+            if (sharkObj == null)
+            {
+                return false;
+            }
+            else
+            {
+                return Equals(sharkObj);
+            }
+        }
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+        //
         private bool bands;
         private Color dopColor;
 

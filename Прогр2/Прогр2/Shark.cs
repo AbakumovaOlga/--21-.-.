@@ -7,8 +7,79 @@ using System.Threading.Tasks;
 
 namespace Прогр2
 {
-    public class Shark : Fish
+    public class Shark : Fish, IComparable<Shark>, IEquatable<Shark> 
     {
+        //8
+        public int CompareTo(Shark other)
+        {
+            if (other == null)
+            {
+                return 1;
+            }
+            if (Age != other.Age)
+            {
+                return Age.CompareTo(other.Age);
+            }
+            if (Speed != other.Speed)
+            {
+                return Speed.CompareTo(other.Speed);
+            }
+            if (Weight != other.Weight)
+            {
+                return Weight.CompareTo(other.Weight);
+            }
+            if (ColorBody != other.ColorBody)
+            {
+                ColorBody.Name.CompareTo(other.ColorBody.Name);
+            }
+            return 0;
+        }
+
+        public bool Equals(Shark other)
+        {
+            if (other == null)
+            {
+                return false;
+            }
+            if (Speed != other.Speed)
+            {
+                return false;
+            }
+            if (Age != other.Age)
+            {
+                return false;
+            }
+            if (Weight != other.Weight)
+            {
+                return false;
+            }
+            if (ColorBody != other.ColorBody)
+            {
+                return false;
+            }
+            return true;
+        }
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+            Shark sharkObj = obj as Shark;
+            if (sharkObj == null)
+            {
+                return false;
+            }
+            else
+            {
+                return Equals(sharkObj);
+            }
+        }
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+        //
         public override int Age
         {
             get
