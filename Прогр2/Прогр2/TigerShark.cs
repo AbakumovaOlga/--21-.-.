@@ -75,7 +75,7 @@ namespace Прогр2
         {
             return base.GetHashCode();
         }
-        //
+        
         private bool bands;
         private Color dopColor;
 

@@ -91,7 +91,6 @@ namespace Прогр2
             }
             return 0;
         }
-        //
 
         //4
         private Dictionary<int, T> cells;
@@ -144,8 +143,7 @@ namespace Прогр2
             }
             c.cells.Add(c.cells.Count, shark);
             return c.cells.Count - 1;
-          //
-         
+          
         }
 
 

@@ -55,3 +55,13 @@ c:\ВУЗ\Прогр2\Прогр2\obj\Debug\Прогр2.FSelectColor.resources
 d:\Прогр8\Прогр2\Прогр2\bin\Debug\Прогр2.exe.config
 d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.exe
 d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.pdb
+d:\Прогр8\Прогр2\Прогр2\bin\Debug\Прогр2.exe
+d:\Прогр8\Прогр2\Прогр2\bin\Debug\Прогр2.pdb
+d:\Прогр8\Прогр2\Прогр2\bin\Debug\NLog.dll
+d:\Прогр8\Прогр2\Прогр2\bin\Debug\NLog.xml
+d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.csprojResolveAssemblyReference.cache
+d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.FAquarium.resources
+d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.Form1.resources
+d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.FSelectColor.resources
+d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.Properties.Resources.resources
+d:\Прогр8\Прогр2\Прогр2\obj\Debug\Прогр2.csproj.GenerateResource.Cache

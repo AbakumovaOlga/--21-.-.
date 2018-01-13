@@ -79,7 +79,7 @@ namespace Прогр2
         {
             return base.GetHashCode();
         }
-        //
+        
         public override int Age
         {
             get
