@@ -251,6 +251,12 @@ namespace Прогр2
                 Draw();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            aquarium.Sort();
+            Draw();
+        }
         //
     }
 }
